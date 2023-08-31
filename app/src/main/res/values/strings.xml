@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Language</string>
+    <string name="korean">Korean</string>
+    <string name="japan">Japan</string>
+    <string name="arab">Arab</string>
+    <string name="france">France</string>
+    <string name="deutch">Deutch</string>
+    <string name="arabic">Arabic</string>
+    <string name="salom">SALOM</string>
+</resources>

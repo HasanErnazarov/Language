@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_salom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salom"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_kr"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:text="@string/korean"
+        android:textSize="35dp"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/bt_jp"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:text="@string/japan"
+        android:textSize="35dp"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/bt_ar"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:text="@string/arabic"
+        android:textSize="35dp"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/bt_fr"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:text="@string/france"
+        android:textSize="35dp"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/bt_dt"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:text="@string/deutch"
+        android:textSize="35dp"
+        app:backgroundTint="@null"/>
+
+</LinearLayout>
